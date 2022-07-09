@@ -1,0 +1,56 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  max-width: 1240px;
+  padding: 0 20px 0 20px;
+}
+
+.header{
+  background: #F6F6F6;
+  padding: 30px 120px 30px 120px;
+}
+
+
+.header_bgrd {
+}
+.header {
+  display: flex;
+  align-items: center;
+
+
+
+}
+.header_logo {
+  background: #FFFFFF;
+border-radius: 7px;
+padding: 9px 6px ;
+}
+.header_currency {
+  font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #555555;
+}
+
+.h_d{
+  color: #2959CE;
+
+}
+
+
+.header-search {
+}
+.header_lang {
+}
+.container {
+}
