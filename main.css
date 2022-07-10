@@ -15,6 +15,7 @@ body{
   max-width: 1240px;
   padding: 0 20px 0 20px;
   margin: 0 auto;
+  margin-bottom: 60px;
   
   
 }
@@ -62,6 +63,8 @@ display: flex;
 
 }
 
+
+
 .h_tur{
 
 
@@ -85,8 +88,18 @@ border-radius: 60px;
 width: 275px;
 height: 45px;
 display: flex;
-justify-content: center;
+/* justify-content: center; */
+align-items: center;
 margin-right: 35px;
+gap: 6px;
+
+}
+
+.search_tool{
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+  
 }
 
 
@@ -344,7 +357,7 @@ color: #000000;
 .extra_news {
   display: flex;
   gap: 10px;
-  margin-bottom: 60px;
+  
   
 
 
@@ -500,6 +513,163 @@ margin-bottom: 15px;
 
 .right_bottom:last-child{
   margin-bottom: 0;
+}
+
+
+
+.bottom_backgrnd {
+  background: #7297EF;
+
+
+
+}
+
+.bottom {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 40px 80px 40px 80px ;
+
+
+
+}
+.bottom_left {
+display: flex;
+margin-bottom: 30px;
+  
+ 
+
+
+
+
+}
+.bottom_logo {
+  margin-bottom: 15px;
+
+
+
+}
+.bottom_txt {
+  margin: 0;
+  width: 229px;
+font-weight: 400;
+font-size: 12px;
+line-height: 19px;
+color: #FFFFFF;
+
+
+
+}
+.bottom_right {
+  display: flex;
+  gap: 100px;
+  
+
+
+
+}
+.bottom_list:first-child {
+  padding: 0;
+  margin: 0;
+  margin-left: 203px;
+
+
+}
+
+.bottom_list{
+
+  padding: 0;
+  margin: 0;
+
+}
+
+
+
+
+
+.bottom_item {
+  padding: 0;
+  list-style: none;
+  margin-bottom: 20px;
+
+
+
+}
+
+
+.bottom_item:nth-child(4){
+  margin: 0;
+
+
+
+
+}
+.bottom_link {
+  text-decoration: none;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+
+
+
+}
+
+
+.bottom_line{
+  margin: 0;
+  margin-bottom: 20px;
+  width: 998px;
+  height: 1px;
+  border: 0 solid #CECECE ;
+  background-color: #CECECE;
+
+
+
+
+
+
+}
+.very_bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 998px;
+
+
+
+
+}
+.v_btm_txt {
+width: 161px;
+font-size: 18px;
+line-height: 23px;
+color: #FFFFFF;
+margin: 0;
+
+
+
+}
+.btm_social {
+  margin: 0;
+  padding: 0;
+ 
+
+
+
+}
+.btm_social_item {
+  display: inline-block;
+  margin-left: 28px;
+
+
+}
+.social_links {
+
+
+}
+.social_links_img {
+
+
+
 }
 
 
