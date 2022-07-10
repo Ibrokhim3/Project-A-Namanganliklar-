@@ -235,6 +235,7 @@ width: 393px;
 background: #F6F6F6;
 border-radius: 15px;
 padding: 20px 17px 15px 15px;
+text-decoration: none;
 
 
 
@@ -244,6 +245,7 @@ padding: 20px 17px 15px 15px;
 .card_title {
   margin: 0;
   margin-bottom: 10px;
+  color: #000000;
 
 
 
@@ -252,6 +254,11 @@ padding: 20px 17px 15px 15px;
 .card_txt {
   margin: 0;
   margin-bottom: 15px;
+  font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #4A4B4C;
+
   
 
 
@@ -271,9 +278,14 @@ padding: 20px 17px 15px 15px;
 
 .card_bottom{
   display: flex;
-  /* align-items: center; */
+  align-items: center;
   gap: 10px;
   margin: 0;
+  font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+color: #5E5F61;
+
   
 }
 
@@ -328,3 +340,167 @@ line-height: 28px;
 color: #000000;
 
 }
+
+.extra_news {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 60px;
+  
+
+
+}
+.left {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  margin-bottom: 17px;
+ 
+
+
+}
+.world {
+
+
+}
+.extra__card {
+  display: flex;
+  width: 797px;
+height: 205px;
+background: #F6F6F6;
+border-radius: 15px;
+padding: 20px 20px 20px 17px;
+gap: 15px;
+text-decoration: none;
+color: #000000;
+
+}
+
+.extra_c_right{
+display: flex;
+flex-direction: column;
+
+
+
+
+
+}
+.extra_wrapper {
+
+
+}
+.extra_c_img {
+
+
+}
+.extra_c_title {
+  margin: 0;
+  margin-bottom: 10px;
+font-size: 20px;
+line-height: 26px;
+
+
+}
+.extra_c_txt {
+  margin: 0;
+  margin-bottom: 20px;
+  font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #4A4B4C;
+
+
+}
+
+.link_more{
+  text-decoration: none;
+  background: #EAEAEA;
+  border-radius: 10px;
+font-size: 16px;
+line-height: 19px;
+color: #000000;
+width: 796px;
+padding: 17px 343px;
+}
+
+
+
+
+.right {
+
+display: flex;
+flex-direction: column; 
+
+
+}
+
+
+.right_main {
+  width: 393px;
+background: #F6F6F6;
+border-radius: 15px;
+
+
+}
+.right_banner {
+
+
+}
+
+.right {
+ 
+
+
+
+}
+.right_main {
+  padding: 20px 20px 25px 17px;
+  margin-bottom: 10px;
+  height: 502px;
+
+
+}
+.right__info {
+
+
+}
+.right_title {
+  margin: 0;
+  margin-bottom: 25px;
+  font-size: 24px;
+line-height: 28px;
+
+
+}
+.right_txt {
+  margin: 0;
+  margin-bottom: 8px;
+  font-size: 18px;
+line-height: 24px;
+text-decoration: none;
+color: #000000;
+
+
+}
+.right_bottom {
+  font-weight: 400;
+font-size: 13px;
+line-height: 15px;
+color: #5E5F61;
+margin-bottom: 15px;
+
+
+}
+.line2 {
+  border: 1px solid #D1D1D1;
+  margin: 0;
+  margin-bottom: 20px;
+
+
+}
+
+.right_bottom:last-child{
+  margin-bottom: 0;
+}
+
+
+
